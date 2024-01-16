@@ -1,0 +1,144 @@
+
+/* banner section */
+.banner{
+    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 20px auto;
+}
+.banner-container{
+    
+    width: 80%;
+    margin: 50px auto;
+    padding: 130px;
+}
+.banner-container-child{
+    
+    text-align: center;
+}
+.banner-title{
+    color: #FFF;
+    font-weight: 800;
+    font-family: Mulish;
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
+}
+.banner-description{
+    color: #FFF;
+    font-weight: 400;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+width: 70%;
+margin: 30px auto;
+
+}
+.banner-form{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+
+}
+.banner-form input{
+    
+    border-radius: 8px;
+    background: #FFF;
+    padding:8px;
+border: 0;
+
+}
+.banner-form button{
+   
+    border-radius: 8px;
+    background: #FF5400;
+    padding:8px 30px;
+    margin-left: 5px;
+    border: 0;
+}
+
+/* popular section starts */
+.popular-container{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+    gap: 80px;
+}
+.popular-text{
+   
+    width: 50%;
+}
+.popular-text ul li {
+   margin-top: 25px;
+}
+.popular-title{
+    color: #131318;
+    font-weight: 800;
+
+font-family: Mulish;
+font-size: 40px;
+}
+
+
+
+.popular-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+font-family: Mulish;
+font-size: 16px;
+margin-top: 40px;
+
+}
+.popular-image{
+    width: 50%;
+}
+
+.btn-popular{
+    color: #FFF;
+    font-weight: 800;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+border-radius: 8px;
+background: #FF5400;
+padding: 5px 15px;
+border: 0;
+margin-top: 35px;
+}
+/* popular section ends */
+@media screen and (max-width:600px) {
+    .banner-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .banner-form input, .banner-form button{
+        margin-top: 10px;
+    }
+    .banner-form button{
+        width: 70%;
+        margin-left: 38px;
+    }
+    .banner-form, .popular-container{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+    .popular-container{
+        gap: 30px;
+    }
+    .popular-text{
+   
+        width: 100%;
+    }
+    .popular-image img{
+        width:330px;
+    }
+}
