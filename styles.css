@@ -155,15 +155,33 @@ font-size: 16px;
 
 }
 .why-choose-container{
-    border: 2px solid red;
+    
     display: flex;
     width: 90%;
     margin: 20px auto;
     justify-content: space-around;
     gap: 15px;
 }
+.why-choose-container h4, .why-choose-child3 h4{
+    color: #131318;
+
+
+font-family: Mulish;
+font-size: 24px;
+font-weight: 800;
+
+}
+.why-choose-container p, .why-choose-child3 p{
+    color: #5A5A5D;
+    font-weight: 400;
+    font-family: Mulish;
+    font-size: 16px;
+
+
+
+}
 .why-choose-child1{
-    border: 2px solid orange;
+    
     width: 48%;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -174,7 +192,7 @@ font-size: 16px;
 
 }
 .why-choose-child2{
-    border: 2px solid orangered;
+    
     width: 48%;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
@@ -182,9 +200,21 @@ font-size: 16px;
     background: rgba(41, 206, 246, 0.05);
     padding: 20px;
 }
-.why-choose-child3{
+
+
+.box3 {
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+
+    background: rgba(233, 68, 68, 0.05);
+
 
 }
+
+
 
 @media screen and (max-width:600px) {
     .banner-container{
@@ -199,7 +229,7 @@ font-size: 16px;
         width: 70%;
         margin-left: 38px;
     }
-    .banner-form, .popular-container, .destination-image1, .destination-image2, .destination-image3{
+    .why-choose-container, .banner-form, .popular-container, .destination-image1, .destination-image2, .destination-image3{
         flex-direction: column;
     }
     .banner-title{
@@ -224,4 +254,12 @@ font-size: 16px;
     .destination-title{
         font-size: 20px;
     }
+    .why-choose-child1, .why-choose-child2{
+        width: 90%;
+        margin: 0 auto;
+    }
+     .box3{
+        width: 85%;
+        margin: auto;
+     }
 }
